@@ -1000,3 +1000,14 @@ button{
     text-align: left;
   }
 }
+@media (max-width: 768px){
+  .hero-stage{
+    grid-template-columns: 20px 1fr 20px;
+    padding: 10px;
+  }
+
+  .hero-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
